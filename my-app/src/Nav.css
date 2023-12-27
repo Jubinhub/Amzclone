@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navBar{
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 1000;
+}
+
+.navBar__logo{
+    width: 80px;
+    height: 32px;
+    margin: 18px 40px 0 20px;
+}
+
+.navBar__searchFiled{
+    display: flex;
+    flex: 1;
+    border-radius: 4px;
+}
+
+.navBar__searchFiled__InputFiled{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 4px 0 0 4px ;
+    text-align: start;
+}
+
+.navBar__searchFiled__searchbtn {
+    background-color: #cd9042;
+    padding: 1.5px;
+    border-radius: 0 4px 4px 0;
+    margin-left: 0;    
+}
+
+.navBar__optionsField{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navBar__optionsField__link{
+    display: flex;
+    text-decoration: none;
+}
+
+.navBar__optionsField__option{
+    text-decoration: none;  
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.navBar__optionsField__option_cart{
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    color: white;
+}
+
+.lightTxt{
+    font-size: 0.7rem;
+    font-weight: 550;
+}
+
+.boldTxt{
+    font-size: .9rem;
+    font-weight: 600;
+}

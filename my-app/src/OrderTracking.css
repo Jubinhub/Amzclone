@@ -1,0 +1,50 @@
+.orderTracking__ad{
+    height: 60px;
+    margin-left: auto;
+    margin-top: 0;
+    margin-right: auto;
+}
+.orderTracking{
+    display: flex;
+    justify-content: center;
+}
+
+.orderTracking__noInfo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+}
+.orderTracking__Info{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.productDetails__info {
+    margin-top: -20px;
+}
+.checkoutProducts{
+    margin-top: 20px;
+}
+.orderTrackingLists{
+    min-height: 180vh;
+    border: 1px solid #eaeded;
+}
+
+.orderTrackingLists__checkoutProducts{
+    object-fit: contain;   
+    display: flex;
+    width: 900px;
+    height: 250px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5rem;
+    background-color: white;
+    padding: 30px;
+
+}

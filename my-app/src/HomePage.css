@@ -1,0 +1,16 @@
+.banerpage {
+    max-width: 1500px;
+    /* border: 1px solid; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productPage{
+    /* border: 1px solid; */
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,10 @@
+.background__banner_showcage{
+    width: 1500px;
+    height: 700px;
+    mask-image: linear-gradient(to bottom ,rgba(0,0,0,1), rgba(0,0,0,0));
+    mask-image: cover;
+    background-size: cover;
+    z-index: -1;
+    margin-top: 0;
+    margin-bottom: -410px;
+}

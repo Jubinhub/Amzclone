@@ -1,0 +1,14 @@
+.checkoutProducts{
+    display: flex;
+    width: 900px;
+    margin-left: 40px;
+    background-color: white;
+    padding: 30px;
+}
+.checkoutProducts__image{
+    height: 180px;
+}
+
+.productDetails__info{
+    margin-left: 20rem;
+}

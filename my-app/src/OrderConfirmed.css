@@ -1,0 +1,22 @@
+.oderConfirmed{
+    /* margin: 30% 50% ; */
+    color: red;
+    font-weight: 400;
+    height:100vh;
+    margin-left: auto;
+}
+.oderConfirmed h1{
+    box-sizing: border-box;
+    /* border: 1px solid; */
+    width: 500px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    /* margin-bottom: auto; */
+}
+
+.oderConfirmed button{
+    /* border: solid; */
+    margin-left: 50%;
+}
